@@ -1,0 +1,23 @@
+#main_content {
+	width: 50%;
+	margin: auto;
+}
+
+.heading {
+	overflow: hidden;
+	background-color : #EDEDED;
+}
+
+.logoimg {
+	width: 250px;
+    float:left; /* add this */
+    border: 1px solid red;
+    margin: 10px 0px 10px 0;
+}
+
+.logotext {
+	border: 1px solid green;
+    float: left; /* add this */
+    margin-top: 24px;
+    font-weight: b;
+}
