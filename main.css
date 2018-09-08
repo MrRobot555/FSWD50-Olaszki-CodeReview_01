@@ -12,13 +12,13 @@
 	width: 30%;
     float:left; 
     /* border: 1px solid red; */
-    margin: 10px 0px 10px 0;
+    margin: 0.7vw 0 0.7vw 0;
 }
 
 .logotext {
 	/* border: 1px solid green; */
     float: left; 
-    margin-top: 20px;
+    margin-top: 1.4vw;
     font-weight: bold;
     font-size: 1.1vw;
 }
@@ -67,20 +67,26 @@
 }
 
 .content_images {
-	width: 410px;
-    height: 200px;
+	width: 21vw;
+    height: 11vw;
  
 }
 
+/*@media screen and (max-width: 600px) {
+  .content_images {
+    font-size: 30px;
+  }
+} */
+
 
 .rightside {
-   	padding: 0 0 50px 0;
+   	padding: 0 0 2.5vw 0;
    	font-size: 1.2vw;
     font-weight: bold;
 }
 
 .leftside {
-   	padding : 0 120px 50px 0;
+   	padding : 0 5.5vw 2.5vw 0;
    	font-size: 1.2vw;
    	font-weight: bold;
 }
