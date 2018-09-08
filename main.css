@@ -191,17 +191,18 @@ input, textarea {
 	font-family : inherit;
   	font-size   : 100%;
     width: 100%;
+    max-width: 100%;  /* textarea's width can be set by mouse on the site, this limits its with to page margin */
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 4px;
- 	background-color: #828282;
+ 	background-color: #9d9d9d; /*dark gray input fields */
  	color: white;
 }
 
 
 input[type=button], input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /*green submit button */
     width: 100%;
     border: none;
     color: white;
