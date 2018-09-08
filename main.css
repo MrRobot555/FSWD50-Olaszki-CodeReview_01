@@ -73,11 +73,13 @@ time, mark, audio, video {
 
 }
 
+
 .nav > li a {
 	color: white;
 	text-decoration :  none;
 	font-weight: bold;
 }
+
 
 .herotext {
 	font-size: 4vw;
