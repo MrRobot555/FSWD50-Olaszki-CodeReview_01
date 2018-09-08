@@ -168,9 +168,15 @@ h1{
 
 }
 
-.content_images {
+.blog_content_images {
 	width: 100%;
 	height: auto;
 	padding: 1vw 0 1vw 0;
 
+}
+
+.videocss {
+    width: 100%;
+    height: auto;
+	padding : 1vw 0 1vw 0;
 }
