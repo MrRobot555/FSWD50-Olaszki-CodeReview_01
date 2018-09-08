@@ -146,3 +146,24 @@ hr {
 	text-align: center;
 	color : #6F6F6F;
 }
+
+
+/* extra pages */
+
+h1{
+	font-size: 3vw;
+	padding: 1vw 0 1vw 0;
+}
+
+.content_format {
+	padding :  0.7vw 1.5vw 0.7vw 1.5vw;
+	text-align: justify;
+	font-size: 1vw;
+}
+
+.herotextcontainer {
+	background-image: url("./img/extra/about_img.png");
+	padding: 5.2vw 0 5.2vw 0;
+	background-size: cover;
+
+}
