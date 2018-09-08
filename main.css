@@ -181,6 +181,11 @@ h1{
 	padding : 1vw 0 1vw 0;
 }
 
+
+label {
+
+}
+
 input, textarea {
 
 	font-family : inherit;
@@ -204,4 +209,19 @@ input[type=button], input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
 }
